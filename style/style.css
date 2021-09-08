@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Padauk', sans-serif;
+    }
+
+header{
+    width: 100%;
+    background-color: #C2CEDB;
+    text-align: center;
+    }
+
+.header-logo{
+    
+    display: inline-block;
+    font-size: 20px;
+}
+
+.moto1{
+    float: left;
+    margin: 10px;
+}
+
+
+.moto2{
+    float: right;   
+    margin: 10px;
+}
+
+@media (max-width: 1024px){
+    .header-logo{
+        width:35%;
+    }
+
+    .header-logo h1{
+        font-size: 25px;
+        
+    }
+    .header-logo p{
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .moto1{
+        margin-top: 50px;
+        width:60px;
+    }
+    .moto2{
+        margin-top: 50px;
+        width:60px;
+    }
+    header{
+        font-size: .9rem;
+    }
+}
+
+.contenedorDeliverys{
+    display: block;
+    width: 55%;
+    max-width: 1500px;
+    background-color: #C2CEDB;
+    margin: 15px auto ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorDeliverys div{
+    width: 200px;
+    height: 150px;
+    background-color: lightseagreen;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contenedorDeliverys div button{
+    background: rgba( 255,255,255,0.8);
+    
+}
+
+.contenedorDeliverys div button:hover{
+    background: rgba( 255,255,255,0.5);
+}
+
+
+.contenedorDeliverys div h5{
+    margin: 5px auto;
+    padding: 0;
+    font-size: 20px;
+}
+
+.contenedorDeliverys p{
+    width: 40%;
+    background-color: lightskyblue;
+    margin: 0px auto 0 ;
+    border: 1px solid black;
+}
+
+.contenedorContadores{
+    margin: 0 auto 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #C2CEDB;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+}
+
+
+.contadorContratados{
+    width: 50%;
+    max-width: 1500px;
+    display: block;
+    text-align:center;
+    margin: 0 auto;       
+    padding: 0;
+    line-height: 7px;
+    border: 1px solid black;
+    font-size: 1rem;
+    background-color: lightseagreen  ;
+    
+}
+
+
+
+
+
+.botonBorrar{
+    background-color: red;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 30%;
+    box-shadow:maroon;
+    margin-top: 10px;
+}
+
+.botonBorrar:hover{
+    background-color: lightpink;
+}
+
+#footerContainer{
+    width: 100%;
+    background-color: #C2CEDB;
+    height: 60px;
+}
+
+#footerContainer h3{
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    font-size: 20px;
+    
+}
+
+#footerContainer img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding-right: 10px;
+}
